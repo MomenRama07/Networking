@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+     name: momen
+     labels:
+        label1-name-1: mo
+        another-label: momozzzzzzzzzzzzzz
+
+spec:
+        containers:
+                - image : wordpress
+                  name: c1
